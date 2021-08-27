@@ -57,11 +57,11 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links-mobile' onClick={closeMobileMenu}>
-                                Contact
+                                Contact <i className='fas fa-comment-alt'></i>
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+                    {button && <Button buttonStyle='btn--outline'>Contact <i className='fas fa-comment-alt'></i></Button>}
                 </div>
             </nav>
         
